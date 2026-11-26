@@ -1,0 +1,477 @@
+
+/* =================================
+PAGINA PRINCIPAL
+================================= */
+
+.hero {
+    background-color: #F8E3D1;
+    padding: 35px 6%;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 0.8fr;
+    align-items: center;
+    gap: 22px;
+}
+
+.hero-texto span {
+    color: #A94B1B;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.hero-texto h2 {
+    font-size: 35px;
+    margin: 12px 0;
+}
+
+.hero-texto p {
+    margin-bottom: 20px;
+}
+
+.hero-foto img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 45% 45% 15px 15px;
+}
+
+.hero-aviso {
+    text-align: center;
+    color: #784020;
+}
+
+.hero-aviso h3 {
+    font-size: 20px;
+}
+
+
+/* =================================
+   SERVICIOS
+================================= */
+
+.grid-servicios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.tarjeta-servicio {
+    background-color: white;
+    border: 1px solid #F0E2D6;
+    padding: 16px;
+    border-radius: 14px;
+    box-shadow: 0 3px 12px rgba(80,40,20,0.06);
+    transition: 0.3s;
+}
+
+.tarjeta-servicio:hover {
+    transform: translateY(-5px);
+}
+
+.tarjeta-servicio img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.tarjeta-servicio h3 {
+    color: #91451F;
+    margin-bottom: 7px;
+}
+
+.tarjeta-servicio p {
+    font-size: 14px;
+}
+
+.icono {
+    font-size: 35px;
+}
+
+
+/* =================================
+   RECOGIDA A DOMICILIO
+================================= */
+
+.recogida {
+    background-color: #F8E3D1;
+    padding: 35px 5%;
+    display: grid;
+    grid-template-columns: 0.8fr 2fr;
+    align-items: center;
+    gap: 30px;
+}
+
+.recogida-foto img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.recogida-texto h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #713719;
+}
+
+.pasos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.pasos article {
+    text-align: center;
+}
+
+.pasos span {
+    font-size: 28px;
+}
+
+.pasos h3 {
+    font-size: 14px;
+    color: #9D4B20;
+}
+
+.pasos p {
+    font-size: 12px;
+}
+
+
+/* =================================
+   TIPOS DE BANOS
+================================= */
+
+.grid-banos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.tarjeta-bano {
+    background-color: white;
+    border: 1px solid #F0E2D6;
+    border-radius: 14px;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0 3px 12px rgba(80,40,20,0.06);
+}
+
+.tarjeta-bano img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+
+.tarjeta-bano div {
+    padding: 15px;
+}
+
+.tarjeta-bano h3 {
+    color: #91451F;
+    margin-bottom: 8px;
+}
+
+.tarjeta-bano p,
+.tarjeta-bano li {
+    font-size: 13px;
+}
+
+.tarjeta-bano ul {
+    padding-left: 18px;
+    margin: 12px 0;
+}
+
+
+/* =================================
+   BANNER DE PAGINAS
+================================= */
+
+.banner-pagina {
+    background-color: #F8E3D1;
+    padding: 55px 20px;
+    text-align: center;
+}
+
+.banner-pagina h2 {
+    color: #91451F;
+    font-size: 34px;
+}
+
+.banner-pagina p {
+    margin-top: 10px;
+}
+
+
+/* =================================
+   GALERIA
+================================= */
+
+.galeria-inicio {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.galeria-inicio img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.galeria-completa {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.galeria-completa figure {
+    background-color: white;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(80,40,20,0.08);
+}
+
+.galeria-completa img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 9px;
+}
+
+.galeria-completa figcaption {
+    padding: 10px;
+    color: #91451F;
+    font-weight: bold;
+}
+
+
+/* =================================
+   NOSOTROS
+================================= */
+
+.nosotros-presentacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+    text-align: left;
+}
+
+.nosotros-presentacion h2 {
+    color: #91451F;
+    margin-bottom: 15px;
+}
+
+.nosotros-presentacion p {
+    margin-bottom: 15px;
+}
+
+.nosotros-presentacion img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.grid-nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.grid-nosotros article {
+    background-color: white;
+    border-radius: 14px;
+    padding: 25px;
+    box-shadow: 0 3px 12px rgba(80,40,20,0.06);
+}
+
+.grid-nosotros h2,
+.grid-nosotros h3 {
+    color: #91451F;
+    margin-bottom: 10px;
+}
+
+
+/* =================================
+   ELEGIRNOS Y LLAMADAS
+================================= */
+
+.elegirnos {
+    background-color: #F8E3D1;
+    margin: 30px 5%;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.elegirnos h2 {
+    color: #91451F;
+    margin-bottom: 15px;
+}
+
+.elegirnos ul {
+    padding-left: 25px;
+}
+
+.elegirnos li {
+    margin-bottom: 8px;
+}
+
+.llamada {
+    background-color: #F8E3D1;
+}
+
+
+/* =================================
+   FORMULARIO DE CONTACTO
+================================= */
+
+.contacto {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 35px;
+    align-items: start;
+    text-align: left;
+}
+
+.contacto-info h2,
+.formulario h2 {
+    color: #91451F;
+    margin-bottom: 18px;
+}
+
+.contacto-info p {
+    margin: 12px 0;
+}
+
+.contacto-info img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 14px;
+    margin-top: 20px;
+}
+
+.formulario {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 12px rgba(80,40,20,0.08);
+}
+
+.formulario label {
+    display: block;
+    margin: 13px 0 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #DDC8B8;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario input:focus,
+.formulario select:focus,
+.formulario textarea:focus {
+    outline: 2px solid #D58A56;
+    border-color: #B94D0D;
+}
+
+.formulario button {
+    margin-top: 20px;
+}
+
+
+/* =================================
+   RESPONSIVE - TABLET
+================================= */
+
+@media (max-width: 900px) {
+
+    .hero {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hero-aviso {
+        grid-column: 1 / -1;
+    }
+
+    .grid-servicios {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-banos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .galeria-inicio {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .galeria-completa {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* =================================
+   RESPONSIVE - CELULARES
+================================= */
+
+@media (max-width: 600px) {
+
+    .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .hero-texto h2 {
+        font-size: 28px;
+    }
+
+    .hero-foto img {
+        height: 240px;
+    }
+
+    .grid-servicios,
+    .grid-banos,
+    .galeria-inicio,
+    .galeria-completa,
+    .grid-nosotros {
+        grid-template-columns: 1fr;
+    }
+
+    .recogida {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .pasos {
+        grid-template-columns: 1fr;
+    }
+
+    .nosotros-presentacion {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .contacto {
+        grid-template-columns: 1fr;
+    }
+
+    .banner-pagina h2 {
+        font-size: 27px;
+    }
+
+}
